@@ -1,0 +1,13 @@
+name: wavlm-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pip
+  - pip:
+    - torch
+    - librosa
+    - transformers
+    - soundfile
+    - azureml-defaults
